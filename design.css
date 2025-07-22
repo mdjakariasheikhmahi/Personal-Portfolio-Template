@@ -144,3 +144,125 @@ span i{
   border-bottom:1px solid rgba(0, 0, 0, 0.093);
 }
 
+/* --- workprocess --- */
+.workprocess-title{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.workprocess-description{
+  margin-bottom: 16px;
+}
+.workprocess{
+  max-width: 529px;
+  max-height: 240px;
+}
+.research{
+  max-width:312px;
+  max-height: 276px;
+  background-color:rgba(255, 255, 255, 1);
+  padding: 32px 32px;
+  border-radius: 10px;
+}
+.research i{
+  font-size: 50px;
+  color:rgba(165, 61, 255, 1);
+  margin-bottom: 30px;
+}
+.research-title{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color:rgba(19, 23, 56, 1);
+}
+.workprocess-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:25px;
+}
+.workprocess-box{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 50px;
+  align-items: center;
+  margin-bottom: 140px;
+}
+
+/* -- Portfolio --- */
+.portfolio-box{
+  text-align: center;
+  margin-bottom:70px;
+}
+.portfolio-box h2{
+  margin-bottom: 24px;
+  font-size: 2.5rem;
+  color: rgba(19, 23, 56, 1);
+}
+.portfolio-card{
+  max-width:424px;
+  max-height:476px;
+  background-color:rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 0.189);
+  border-radius: 8px;
+  /* margin-left: 30px; */
+}
+
+.ui-ux{
+  font-size:15px;
+  font-weight: 600;
+  color:rgba(135, 144, 157, 1);
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+}
+.ui-ux-title{
+  font-size: 1.3rem;
+  color:rgba(19, 23, 56, 1);
+  margin-bottom: 12px;
+}
+.ui-ux-title-btm{
+  border: 2px solid rgba(165, 61, 255, 1);
+  padding: 12px 24px;
+  color: rgba(165, 61, 255, 1);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: white;
+}
+.portfolio-card p{
+  font-size: 1rem;
+}
+.portfolio-card-margin{
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.portfolio-box-flex{
+  max-width: 1320px;
+  max-height: 976px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.bg-color{
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 110px;
+  padding-bottom: 110px;
+  margin: 50px 50px;
+  border: 1px solid rgba(0, 0, 0, 0.105);
+  border-radius: 10px;
+}
+/* --- button --- */
+.button{
+  font-size: 1rem;
+  background-color: rgba(165, 61, 255, 1);
+  color: white;
+  padding:  12px 12px;
+  border: none;
+  border-radius: 5px;
+}
+.button-main{
+  display: flex;
+  justify-content: center;
+}
