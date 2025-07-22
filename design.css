@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Work Sans", sans-serif;
+  ;
 }
 
 /* ----- Share Style ----- */
@@ -16,7 +17,7 @@
 }
 
 .share-description-design {
-  font-size: 1rem;
+  font-size: 1.21rem;
   color: rgba(85, 96, 112, 1);
   font-weight: 400;
 }
@@ -46,4 +47,41 @@
   gap: 24px;
   list-style: none;
   align-items: center;
+}
+
+/* ----- Introduce ----- */
+.introduce-title {
+  font-size: 4rem;
+  margin-bottom: 24px;
+}
+.btm-main {
+  padding-left: 100px;
+  margin-top: 24px;
+  font-size: 1.25rem;
+}
+.introduce-box {
+  max-width: 648px;
+  max-height: 336px;
+}
+/* --- Experience --- */
+.experience-card-title {
+  font-size: 2.5rem;
+  color: rgba(66, 78, 96, 1);
+}
+.experience-card {
+  background-color: rgba(237, 216, 255, 0.5);
+  text-align: center;
+  padding: 20px 60px;
+  border-radius: 5px;
+}
+.experience {
+  display: flex;
+  gap: 5px;
+  margin-top: 142px;
+}
+.introduce-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
 }
