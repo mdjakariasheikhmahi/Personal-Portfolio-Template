@@ -44,7 +44,7 @@
 }
 .nav-box ul {
   display: flex;
-  gap: 24px;
+  gap: 50px;
   list-style: none;
   align-items: center;
 }
