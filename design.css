@@ -85,3 +85,62 @@
     align-items: center;
     margin: 50px;
 }
+
+/* ----- MAIN ----- */
+/* --- icon --- */
+.social-media-icon{
+  display: flex;
+  justify-content: center;
+  gap:25px;
+  color:rgba(0, 0, 0, 0.85);
+  background-color: rgb(255, 255, 255);
+  font-size: 30px;
+  max-width: 264px;
+  max-height: 72px;
+  padding: 20px 20px;
+  border-radius: 5px;
+  margin-top: -200px;
+  margin-left: 200px;
+}
+
+.professional{
+  max-width:536px;
+  max-height: 348px;
+  text-align: start;
+}
+.professional-title{
+  font-size: 2.35rem;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.professional-description{
+margin-bottom: 20px;
+}
+span{
+  display: flex;
+  gap:16px;
+}
+.btn-2nd{
+  color: rgba(165, 61, 255, 1);
+  border:3px solid rgba(165, 61, 255, 1);
+  border-radius: 5px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+span i{
+  margin-right: 20px;
+}
+.background{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.professional-container{
+  margin: 50px 50px;
+  background-color:rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.093);
+  border-bottom:1px solid rgba(0, 0, 0, 0.093);
+}
+
