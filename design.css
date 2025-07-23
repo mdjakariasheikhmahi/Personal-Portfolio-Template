@@ -328,6 +328,56 @@ padding-bottom: 24px;
 }
 .blog-container{
 align-items: center;
+background-color:white;
+margin: 50px 50px;
+padding: 130px 0;
 }
 
 /* ----- What I do? ----- */
+.i-do-container h1 {
+font-size: 2rem;
+color:rgba(51, 51, 51, 1);
+font-weight: bold;
+margin-bottom: 16px;
+}
+.i-do-container p{
+margin-top: 16px;
+max-width:529px;
+max-height:338px;
+}
+.i-do-container button {
+font-size: 1rem;
+font-weight: 600;
+color: white;
+padding: 12px 24px;
+background-color:rgba(165, 61, 255, 1);
+border-radius: 5px;
+border: none;
+margin-top: 50px;
+}
+.i-do-card h2{
+font-size: 1.2rem;
+color:rgba(19, 23, 56, 1);
+font-weight: bold;
+margin-bottom: 16px;
+}
+.i-do-card{
+max-width: 648px;
+max-height: 176px;
+background-color:rgba(255, 255, 255, 1);
+border-left: 8px solid rgba(165, 61, 255, 1);
+border-radius: 10px;
+padding: 32px 32px;
+}
+.i-do-box{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 24px;
+}
+
+.i-do{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 50px;
+  align-items: center;
+}
