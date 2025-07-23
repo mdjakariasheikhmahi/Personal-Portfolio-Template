@@ -279,3 +279,55 @@ span i {
   margin-top: 32px;
   margin-bottom: 100px;
 }
+
+/* ----- BLOG ----- */
+.blog-box{
+  text-align: center;
+  margin-top: 100px;
+}   
+.blog-box h1{
+  font-size:3rem;
+  font-weight: bold;
+  color: rgba(19, 23, 56, 1);
+  margin-bottom: 24px;
+}
+.blog-bg{
+  max-width: 1320px;
+  max-height:350px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 70px;
+  gap: 24px;px;
+  margin-bottom: 132px;
+}
+.blog-card{
+  max-width:312px;
+  max-height: 350px;
+  background-color:rgba(255, 255, 255, 1);
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.167);
+}
+.blog-card img{
+border-radius: 10px 10px 0px 0px;
+margin-bottom: 24px;
+}
+.blog-card p{
+font-size: 1rem;
+font-weight: 600px;
+color: rgba(135, 144, 157, 1);
+margin-left: 15px;
+}
+.blog-card h3{
+font-size: 1.2rem;
+font-weight: 500;
+margin-left: 15px;
+margin-top:8px;
+padding-bottom: 24px;
+}
+.blog-container{
+align-items: center;
+}
+
+/* ----- What I do? ----- */
