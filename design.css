@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: "Work Sans", sans-serif;
-  ;
 }
 
 /* ----- Share Style ----- */
@@ -79,20 +78,20 @@
   gap: 5px;
   margin-top: 142px;
 }
-.introduce-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 50px;
+.introduce-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
 }
 
 /* ----- MAIN ----- */
 /* --- icon --- */
-.social-media-icon{
+.social-media-icon {
   display: flex;
   justify-content: center;
-  gap:25px;
-  color:rgba(0, 0, 0, 0.85);
+  gap: 25px;
+  color: rgba(0, 0, 0, 0.85);
   background-color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 264px;
@@ -103,83 +102,83 @@
   margin-left: 200px;
 }
 
-.professional{
-  max-width:536px;
+.professional {
+  max-width: 536px;
   max-height: 348px;
   text-align: start;
 }
-.professional-title{
+.professional-title {
   font-size: 2.35rem;
   font-weight: bold;
   margin-bottom: 32px;
 }
-.professional-description{
-margin-bottom: 20px;
+.professional-description {
+  margin-bottom: 20px;
 }
-span{
+span {
   display: flex;
-  gap:16px;
+  gap: 16px;
 }
-.btn-2nd{
+.btn-2nd {
   color: rgba(165, 61, 255, 1);
-  border:3px solid rgba(165, 61, 255, 1);
+  border: 3px solid rgba(165, 61, 255, 1);
   border-radius: 5px;
   padding: 12px 24px;
   font-size: 1rem;
   font-weight: 600;
 }
-span i{
+span i {
   margin-right: 20px;
 }
-.background{
+.background {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.professional-container{
+.professional-container {
   margin: 50px 50px;
-  background-color:rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
   border-radius: 5px;
   border-top: 1px solid rgba(0, 0, 0, 0.093);
-  border-bottom:1px solid rgba(0, 0, 0, 0.093);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.093);
 }
 
 /* --- workprocess --- */
-.workprocess-title{
+.workprocess-title {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 24px;
 }
-.workprocess-description{
+.workprocess-description {
   margin-bottom: 16px;
 }
-.workprocess{
+.workprocess {
   max-width: 529px;
   max-height: 240px;
 }
-.research{
-  max-width:312px;
+.research {
+  max-width: 312px;
   max-height: 276px;
-  background-color:rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
   padding: 32px 32px;
   border-radius: 10px;
 }
-.research i{
+.research i {
   font-size: 50px;
-  color:rgba(165, 61, 255, 1);
+  color: rgba(165, 61, 255, 1);
   margin-bottom: 30px;
 }
-.research-title{
+.research-title {
   font-size: 1.5rem;
   font-weight: 600;
-  color:rgba(19, 23, 56, 1);
+  color: rgba(19, 23, 56, 1);
 }
-.workprocess-container{
+.workprocess-container {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap:25px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
 }
-.workprocess-box{
+.workprocess-box {
   display: flex;
   justify-content: space-between;
   margin: 50px 50px;
@@ -188,38 +187,37 @@ span i{
 }
 
 /* -- Portfolio --- */
-.portfolio-box{
+.portfolio-box {
   text-align: center;
-  margin-bottom:70px;
+  margin-bottom: 70px;
 }
-.portfolio-box h2{
+.portfolio-box h2 {
   margin-bottom: 24px;
   font-size: 2.5rem;
   color: rgba(19, 23, 56, 1);
 }
-.portfolio-card{
-  max-width:424px;
-  max-height:476px;
-  background-color:rgba(255, 255, 255, 1);
+.portfolio-card {
+  max-width: 424px;
+  max-height: 476px;
+  background-color: rgba(255, 255, 255, 1);
   border: 1px solid rgba(0, 0, 0, 0.189);
   border-radius: 8px;
   /* margin-left: 30px; */
 }
 
-.ui-ux{
-  font-size:15px;
+.ui-ux {
+  font-size: 15px;
   font-weight: 600;
-  color:rgba(135, 144, 157, 1);
+  color: rgba(135, 144, 157, 1);
   margin-top: 30px;
   margin-bottom: 10px;
-
 }
-.ui-ux-title{
+.ui-ux-title {
   font-size: 1.3rem;
-  color:rgba(19, 23, 56, 1);
+  color: rgba(19, 23, 56, 1);
   margin-bottom: 12px;
 }
-.ui-ux-title-btm{
+.ui-ux-title-btm {
   border: 2px solid rgba(165, 61, 255, 1);
   padding: 12px 24px;
   color: rgba(165, 61, 255, 1);
@@ -229,23 +227,23 @@ span i{
   margin-top: 20px;
   background-color: white;
 }
-.portfolio-card p{
+.portfolio-card p {
   font-size: 1rem;
 }
-.portfolio-card-margin{
+.portfolio-card-margin {
   margin-left: 30px;
   margin-bottom: 30px;
 }
-.portfolio-box-flex{
+.portfolio-box-flex {
   max-width: 1320px;
   max-height: 976px;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   margin: 0 auto;
   margin-bottom: 50px;
 }
-.bg-color{
+.bg-color {
   background-color: rgba(255, 255, 255, 1);
   padding-top: 110px;
   padding-bottom: 110px;
@@ -254,15 +252,30 @@ span i{
   border-radius: 10px;
 }
 /* --- button --- */
-.button{
+.button {
   font-size: 1rem;
   background-color: rgba(165, 61, 255, 1);
   color: white;
-  padding:  12px 12px;
+  padding: 12px 12px;
   border: none;
   border-radius: 5px;
 }
-.button-main{
+.button-main {
   display: flex;
   justify-content: center;
+}
+/* Do you have Project Idia? Let's discuss your project! */
+.discuss-box {
+  font-size: 2rem;
+  text-align: center;
+  background-color: rgba(19, 23, 56, 1);
+  padding-top: 60px;
+}
+.discuss-box h1 {
+  color: white;
+  margin-bottom: 32px;
+}
+.discuss-box button {
+  margin-top: 32px;
+  margin-bottom: 100px;
 }
