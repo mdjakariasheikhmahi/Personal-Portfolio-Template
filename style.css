@@ -113,9 +113,37 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 222px;
+  margin-bottom: 100px;
  }
 
+ /* --- I am Professional User Experience Designer --- */
+ .btn-1{
+  font-size: 1rem;
+  border: none;
+  background-color:rgba(165, 61, 255, 1);
+  padding: 12px 24px;
+  border-radius: 5px;
+ }
+ .btn-2{
+  font-size: 1rem;
+  color:rgba(165, 61, 255, 1);
+  border: 2px solid rgba(165, 61, 255, 1);
+  padding: 10px 22px;
+  border-radius: 5px;
+  background-color: white;
+ }
+ .designer-btn{
+  display: flex;
+  gap: 20px;
+ }
+.professional-user-experience{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 5px;
+  padding: 100px;
+}
 
 
 
@@ -140,7 +168,15 @@ body {
     .pic img{
     width:100%;
     }
-
+  .professional-user-experience{
+    flex-direction: column-reverse;
+  }
+  .pic-2{
+    display:none;
+  }
+  .designer-btn{
+    justify-content: center;
+  }
 
 }
 
@@ -164,4 +200,10 @@ body {
       padding: 12px 100px;
       font-size: 1.2rem;
     }
+    .professional-user-experience{
+    flex-direction: column-reverse;
+  }
+  .designer-btn{
+    justify-content: center;
+  }
 }
