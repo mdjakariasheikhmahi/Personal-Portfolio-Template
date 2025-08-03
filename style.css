@@ -30,7 +30,7 @@ body {
   font-size: 1rem;
   font-weight: 500;
 }
-.margin-top{
+.margin-top {
   margin-top: 24px;
 }
 /* ----- Nave Bar ----- */
@@ -72,138 +72,178 @@ body {
   gap: 48px;
 }
 
- /* ----- Banner -----  */
- .banner-box button{
-   border: none;
-   background-color:rgba(165, 61, 255, 1);
-   color: white;
-   padding: 12px 14px; 
-   padding-left: 100px;
-   border-radius: 5px;
-   margin-top: 24px;
- }
- .banner-box{
+/* ----- Banner -----  */
+.banner-box button {
+  border: none;
+  background-color: rgba(165, 61, 255, 1);
+  color: white;
+  padding: 12px 14px;
+  padding-left: 100px;
+  border-radius: 5px;
+  margin-top: 24px;
+}
+.banner-box {
   /* width:48%; */
- }
+}
 
- /* --- Card --- */
- .experience-card h1{
+/* --- Card --- */
+.experience-card h1 {
   font-size: 2.5rem;
-  color:rgba(66, 78, 96, 1);
- }
- .experience-card p{
+  color: rgba(66, 78, 96, 1);
+}
+.experience-card p {
   font-size: 1rem;
-  color:rgba(105, 116, 132, 1);
+  color: rgba(105, 116, 132, 1);
   margin-top: 8px;
- }
- .experience-card{
-  background-color:rgba(237, 216, 255, 0.5);
+}
+.experience-card {
+  background-color: rgba(237, 216, 255, 0.5);
   padding: 17px;
   border-radius: 8px;
   text-align: center;
- }
- .card-box{
+}
+.card-box {
   display: flex;
   justify-content: center;
   gap: 5px;
   margin-top: 142px;
- }
+}
 
- .banner{
+.banner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 100px;
- }
+}
 
- /* --- I am Professional User Experience Designer --- */
- .btn-1{
+/* --- I am Professional User Experience Designer --- */
+.btn-1 {
   font-size: 1rem;
   border: none;
-  background-color:rgba(165, 61, 255, 1);
+  background-color: rgba(165, 61, 255, 1);
   padding: 12px 24px;
   border-radius: 5px;
- }
- .btn-2{
+}
+.btn-2 {
   font-size: 1rem;
-  color:rgba(165, 61, 255, 1);
+  color: rgba(165, 61, 255, 1);
   border: 2px solid rgba(165, 61, 255, 1);
   padding: 10px 22px;
   border-radius: 5px;
   background-color: white;
- }
- .designer-btn{
+}
+.designer-btn {
   display: flex;
   gap: 20px;
- }
-.professional-user-experience{
+}
+.professional-user-experience {
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: white;
   border-radius: 5px;
   padding: 100px;
+  margin-bottom: 100px;
 }
 
+/* ----- Work Process ----- */
 
+/* --- Card --- */
+.work-card {
+  background-color: white;
+  padding: 32px;
+  border-radius: 10px;
+  border: none;
+}
 
+.work-card i {
+  color: rgba(165, 61, 255, 1);
+  font-size: 2.5rem;
+  margin-bottom: 32px;
+}
+.work-card h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgba(19, 23, 56, 1);
+  margin-bottom: 12px;
+}
 
+.work-process {
+  display: flex;
+  justify-content: space-between;
+  gap: 143px;
+  align-items: center;
+  margin-bottom: 140px;
+}
 
-
-
-
-
-
+.card-box1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
 
 /* ----- Responsive Section ----- */
-    /* --- Small devices --- */
+/* --- Small devices --- */
 @media screen and (max-width: 576px) {
-    .nav-link ul{ 
+  .nav-link ul {
     display: none;
-    }
-    .banner{
-      flex-direction: column-reverse;
-      text-align: center;
-    }
-    .pic img{
-    width:100%;
-    }
-  .professional-user-experience{
+  }
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .pic img {
+    width: 100%;
+  }
+  .professional-user-experience {
     flex-direction: column-reverse;
   }
-  .pic-2{
-    display:none;
+  .pic-2 {
+    display: none;
   }
-  .designer-btn{
+  .designer-btn {
     justify-content: center;
   }
-
+  .work-process {
+    flex-direction: column;
+    text-align: center;
+  }
+  .card-box1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
-
 /* --- Medium devices --- */
-@media screen and (max-width: 991.98px){
-.nav-link ul{ 
+@media screen and (max-width: 991.98px) {
+  .nav-link ul {
     display: none;
-    }
-    .banner{
-      flex-direction: column-reverse;
-      text-align: center;
-    }
-    .pic img{
-    width:100%;
-    }
-    .card-box{
-      justify-content: space-around;
-    }
-    .banner-box button{
-      padding: 12px 100px;
-      font-size: 1.2rem;
-    }
-    .professional-user-experience{
+  }
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .pic img {
+    width: 100%;
+  }
+  .card-box {
+    justify-content: space-around;
+  }
+  .banner-box button {
+    padding: 12px 100px;
+    font-size: 1.2rem;
+  }
+  .professional-user-experience {
     flex-direction: column-reverse;
   }
-  .designer-btn{
+  .designer-btn {
     justify-content: center;
+  }
+
+  .work-process {
+    flex-direction: column;
+    text-align: center;
+  }
+  .card-box1 {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
