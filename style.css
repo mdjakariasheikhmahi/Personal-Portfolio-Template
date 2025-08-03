@@ -185,6 +185,7 @@ body {
 .Portfolio {
   margin-bottom: 100px;
   border-radius: 5px;
+
 }
 .Portfolio-title {
   text-align: center;
@@ -242,6 +243,37 @@ body {
 .Portfolio-card button i {
   margin-left: 20px;
   color: rgba(165, 61, 255, 1);
+}
+.Project-btn{
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  background-color:rgba(165, 61, 255, 1);
+  border-radius: 5px;
+  margin-top: 50px;
+
+}
+.Project-btn-main{
+text-align: center;
+}
+
+
+/* ----- Do you have Project Idia? Let's discuss your project! ----- */
+
+.project-idia{
+  background-color:rgba(19, 23, 56, 1);
+  padding: 100px;
+  text-align: center;
+}
+
+.project-idia button{
+  font-size: 1rem;
+  padding: 12px 24px;
+  border-radius: 5px;
+  border: none;
+  background-color:rgba(165, 61, 255, 1);
+  color: white;
+  margin-top: 30px;
 }
 
 /* ----- Responsive Section ----- */
