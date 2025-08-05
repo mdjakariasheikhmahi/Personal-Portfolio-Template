@@ -391,6 +391,33 @@ body {
   background-color: white;
   padding: 100px 10px;
   border-radius: 10px;
+  margin-bottom: 150px;
+}
+
+/* ----- Footer Section ----- */
+.footer h1{
+color: white;
+font-size: 2.5rem;
+font-weight: 500;
+}
+.footer-link ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 30px;
+  color: white;
+}
+.footer p{
+  color: white;
+  font-size: 1rem;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  justify-content: space-between;
+  background-color:rgba(43, 56, 76, 1);
+  padding: 50px 12px;
 }
 
 /* ----- Responsive Section ----- */
@@ -438,6 +465,12 @@ body {
     grid-template-columns: repeat(1, 1fr);
     width: 50%;
     margin: 0 auto;
+  }
+  .footer{
+    flex-direction: column;
+  }
+  .footer-link ul{
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -489,5 +522,12 @@ body {
   }
   .sponsored-pic {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .footer{
+    flex-direction: column;
+  }
+  .footer-link ul{
+    grid-template-columns: repeat(2, 1fr);
+    
   }
 }
