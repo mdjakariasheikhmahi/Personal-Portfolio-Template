@@ -276,6 +276,92 @@ text-align: center;
   margin-top: 30px;
 }
 
+/* ----- Blog ----- */
+.blog{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.blog h1{
+margin-bottom: 24px;
+}
+.blog-card img{
+width: 100%;
+border-radius: 8px 8px 0 0;
+}
+.blog-card h2{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+.blog-card p{
+  font-size: 1rem;
+  margin-left: 24px;
+  color: rgba(105, 116, 132, 1);
+  margin-top: 24px;
+}
+.blog-card{
+  background-color: white;
+  border-radius: 8px;
+  padding-bottom: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.068);
+}
+.blog-box{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.blog-section{
+  margin-bottom: 100px;
+  background-color: white;
+  padding: 100px;
+}
+
+/* ----- What I do? ----- */
+.what-i-do-box button{
+padding: 12px 24px;
+margin-top: 75px;
+border: none;
+border-radius: 5px;
+background-color:rgba(165, 61, 255, 1);
+color: white;
+font-size: 1rem;
+}
+.what-i-do-card{
+  background-color: white;
+  padding: 32px;
+  border-left: 5px solid rgba(165, 61, 255, 1);
+  border-radius: 5px;
+  margin: 25px;
+}
+.what-i-do-card h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color:rgba(19, 23, 56, 1);
+}
+.what-i-do{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ----- Responsive Section ----- */
 /* --- Small devices --- */
 @media screen and (max-width: 576px) {
@@ -307,6 +393,15 @@ text-align: center;
   }
   .Portfolio-box {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .blog-box{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .what-i-do{
+    flex-direction: column;
+  }
+  .what-i-do-box{
+    text-align: center;
   }
 }
 
@@ -345,5 +440,14 @@ text-align: center;
   }
   .Portfolio-box {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .blog-box{
+    grid-template-columns: repeat(1, 1fr);
+  }
+   .what-i-do{
+    flex-direction: column;
+  }
+  .what-i-do-box{
+    text-align: center;
   }
 }
